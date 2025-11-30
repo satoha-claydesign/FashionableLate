@@ -28,3 +28,4 @@
 * nginx 1.12.1
 
 # ER図
+test.png
