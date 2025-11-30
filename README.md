@@ -28,4 +28,4 @@
 * nginx 1.12.1
 
 # ER図
-test.png
+![ER図](https://github.com/satoha-claydesign/FashionableLate/blob/main/test.png)
