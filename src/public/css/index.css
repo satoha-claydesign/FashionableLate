@@ -1,0 +1,120 @@
+nav {
+    display: none;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.contact-form__heading>h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__group-title {
+    max-width: 700px;
+}
+
+.form__name-group, .form__tel-group{
+    display: inline-block;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    color: #ff0000;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+    font-size:10px;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f4f4f4;
+    appearance: none;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--text.form__name input{
+    width: 300px;
+}
+
+.form__input--radio {
+    width: 600px;
+    display: inline-flex;
+    justify-content: flex-start;
+    /* text-align: left; */
+}
+
+.form__input--radio label{
+    margin-right: 60px;
+}
+
+.form__input--text.form__tel input {
+    width: 180px;
+    margin-right: 10px;
+}
+
+.form__input--text.form__category {
+    width: 600px;
+    text-align: left;
+}
+
+select.form__category__item-select {
+    width: 300px;
+    height: 40px;
+    background-color: #f4f4f4;
+    border: none;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #baa899;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
