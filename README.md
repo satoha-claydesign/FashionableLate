@@ -9,6 +9,7 @@
 ## Laravel環境構築
 * docker compose exec php bash
 * composer install
+* cp .env.example .env, 環境変数を適宜変更
 * php artisan key:generate
 * php artisan migrate
 * php artisan db:seed --class=CategoryTableSeeder
@@ -28,3 +29,4 @@
 * nginx 1.12.1
 
 # ER図
+![ER図](https://github.com/satoha-claydesign/FashionableLate/blob/main/test.png)
