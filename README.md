@@ -11,7 +11,8 @@
 * composer install
 * php artisan key:generate
 * php artisan migrate
-* php artisan db:seed
+* php artisan db:seed --class=CategoryTableSeeder
+* php artisan db:seed --class=ContactTableSeeder
 
 # 開発環境
 
